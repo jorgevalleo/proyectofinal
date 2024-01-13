@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <title>Mariana Nails</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../img/Logo2.jpg" alt="logo"></a>
+        </div>
+        <div class="clasic-menu">
+            <nav>  <!-- menú de navegación -->
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="consejos.html">Consejos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consejos.html">Consejos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <h1>Contacto</h1>
+            <div id="contacto">
+                <h2>Formulario de Contacto</h2>
+                <form action="/enviar-correo" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+                
+                <div class="datos">
+                    <h2>Datos de Contacto</h2>
+                    <p>Teléfono: 123-456-7890</p>
+                    <p>Email: info@mariananails.com</p>
+                </div>
+                
+                <div id="map">
+                    <h2>Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.520770846356!2d-55.93886702430529!3d-34.817996768846236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f898778a25281%3A0xb2d75cb76f0c24c3!2sTransversal%20%26%20Atolones%2C%2015800%20Ciudad%20de%20la%20Costa%2C%20Departamento%20de%20Canelones!5e0!3m2!1ses!2suy!4v1704884060365!5m2!1ses!2suy"></iframe>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer-column">
+            <h5>LEGALES</h5>
+            <ul>
+                <li><a href="#">Términos de Uso</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Aviso Legal</a></li>
+                <!-- Agrega los enlaces a tus páginas legales -->
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>COPYRIGHT</h5>
+            <p>Derechos de Autor © 2024 Tu Salón de Manicura</p>
+        </div>
+        <div class="footer-column">
+            <h5>REDES SOCIALES</h5>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <!-- Agrega los enlaces a tus redes sociales -->
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
